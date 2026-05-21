@@ -86,4 +86,14 @@ sudo apt update
 ```
 ```bash
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo usermod -aG docker $USER
+newgrp docker
+systemctl reboot
+```
+
+## Zsh
+```bash
+sudo apt install zsh
+curl -sS https://starship.rs/install.sh | sh
+systemctl reboot
 ```
