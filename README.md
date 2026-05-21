@@ -1,5 +1,11 @@
 # Steps to fully setup a new Debian install (mostly for me to remember)
 
+## 0. Setup Sudo
+```bash
+su
+sudo usermod -aG sudo hemera
+```
+
 ## 1. Setup Flatpak
 ```bash
 sudo apt install flatpak
