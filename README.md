@@ -1,6 +1,6 @@
 # Steps to fully setup a new Debian install (mostly for me to remember)
 
-## 0. Setup Sudo
+## Setup Sudo
 ```bash
 su
 sudo usermod -aG sudo hemera
