@@ -22,6 +22,7 @@ Install these apps :
 - The Honkers Railway Launcher
 - Extensions Manager
 - Steam
+- Zen Browser
 
 ## Settings
 Appearance > Dark
@@ -32,6 +33,27 @@ Tweaks > Windows > Maximize / Minimize
 Hide Show Apps
 
 ### ArcMenu
+To make it work :
+```bash
+sudo apt install libgnome-menu-3-0 gir1.2-gmenu-3.0
+```
+In settings :
+Placement > Left
+Layout > Modern > 11
+Button > Icon > "Debian" > Size : 32
 
 ### Blur My Shell
 Default settings
+
+## Nerd Font
+Install FiraCode
+Copy all .ttf to .local/share/fonts
+```bash
+fc-cache -v -f
+```
+
+## VSCode
+[Download .deb](https://code.visualstudio.com/Download)
+```bash
+sudo apt install ./code.deb
+```
